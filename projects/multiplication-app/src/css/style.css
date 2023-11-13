@@ -6,4 +6,63 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background-color: #9370db;
+}
+
+.form {
+  background-color: #ffffff;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  border: solid 4px #3cb371;
+  color: #006400;
+}
+
+.input::placeholder {
+  color: #dcdcdc;
+}
+
+.btn {
+  background-color: #3cb371;
+  color: #ffffff;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(0.9);
+}
+
+.score {
+  color: #006400;
+  text-align: right;
+}
+
+.question {
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 700;
+  color: #000000;
 }
